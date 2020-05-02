@@ -11,63 +11,210 @@
     <link rel="stylesheet" href="css/estilos.css">    
 </head>
 <body>
-    <section>
+    <section>        
         <div class="container">
+            <div class="container-barra">
+                <div class="icon">
+                    <i class="far fa-save"></i>
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+
+                <div class="pag">
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+
+                    <i class="fad fa-angle-double-left"></i>
+                    <i class="fad fa-angle-double-right"></i>
+                </div>
+                
+                
+            </div>
             <div class="acordeon">
                 <div class="acordeon-item" id="Pregunta1">
                     <a class="acordeon-link active" href="#Pregunta1">
-                        Esta es la pregunta N 1?
+                        P1- ¿SI TUVIESE QUE EVALUAR HASTA AQUÍ LA GESTIÓN DEL INTENDENTE DE SU MUNICIPIO, 
+                        DIRIA QUE ES...?
                         <i class="fas fa-plus"></i>
                         <i class="fas fa-minus"></i>
                     </a>
+
                     <div class="opciones">
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dignissimos maiores quas dolorum eum reprehenderit 
-                            voluptatibus, reiciendis odit nemo et accusantium, 
-                            cupiditate, labore placeat commodi. Accusamus culpa 
-                            provident amet magnam saepe.
-                        </p>                        
-                    </div>
+                            <input type="checkbox" id="p1_1">
+                            <label for="p1_1">MUY BIEN</label>
+                            <input type="checkbox" id="p1_2">
+                            <label for="p1_2">BIEN</label>
+                            <input type="checkbox" id="p1_3">
+                            <label for="p1_3">REGULAR</label>
+                            <input type="checkbox" id="p1_4">
+                            <label for="p1_4">MAL</label>
+                            <input type="checkbox" id="p1_5">
+                            <label for="p1_5">MUY MAL</label>
+                            <input type="checkbox" id="p1_6">
+                            <label for="p1_6">NS / NC</label>
+                        </p>
+
+                        <!--
+                            <p>
+                            <input type="checkbox" id="p1_1">
+                            <label for="p1_1">MUY BIEN</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="p1_2">
+                            <label for="p1_2">BIEN</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="p1_3">
+                            <label for="p1_3">REGULAR</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="p1_4">
+                            <label for="p1_4">MAL</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="p1_5">
+                            <label for="p1_5">MUY MAL</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="p1_6">
+                            <label for="p1_6">NS / NC</label>
+                        </p>
+
+                        -->
+                        
+                    </div>                        
                 </div>
 
                 <div class="acordeon-item" id="Pregunta2">
                     <a class="acordeon-link" href="#Pregunta2">
-                        Esta es la pregunta N 2?
+                        P2- ¿SI TUVIERA QUE APROBAR O DESAPROBAR LA GESTIÓN DEL INTENDENTE SU MUNICIPIO, 
+                        DIRÍA QUE...?
                         <i class="fas fa-plus"></i>
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dignissimos maiores quas dolorum eum reprehenderit 
-                            voluptatibus, reiciendis odit nemo et accusantium, 
-                            cupiditate, labore placeat commodi. Accusamus culpa 
-                            provident amet magnam saepe.
-                        </p>                        
+                            <input type="checkbox" id="p2_1">
+                            <label for="p2_1">LA APRUEBA</label>
+                            <input type="checkbox" id="p2_2">
+                            <label for="p2_2">LA DESAPRUEBA</label>
+                            <input type="checkbox" id="p2_3">
+                            <label for="p2_3">NS / NC</label>
+                        </p>                   
                     </div>
                 </div>
 
                 <div class="acordeon-item" id="Pregunta3">
                     <a class="acordeon-link" href="#Pregunta3">
-                        Esta es la pregunta N 3?
+                        P3- ¿SE COMUNICO CON EL MUNICIPIO POR EL PROBLEMA QUE TENIA?
                         <i class="fas fa-plus"></i>
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dignissimos maiores quas dolorum eum reprehenderit 
-                            voluptatibus, reiciendis odit nemo et accusantium, 
-                            cupiditate, labore placeat commodi. Accusamus culpa 
-                            provident amet magnam saepe.
+                            <input type="checkbox" id="p3_1">
+                            <label for="p3_1">SI</label>
+                            <input type="checkbox" id="p3_2">
+                            <label for="p3_2">NO</label>                            
                         </p>                        
                     </div>
                 </div>
 
                 <div class="acordeon-item" id="Pregunta4">
                     <a class="acordeon-link" href="#Pregunta4">
-                        Esta es la pregunta N 4?
+                        P4- ¿COMO EVALUA LA ATENCION QUE LE BRINDO EL PERSONAL DEL MUNICIPIO?
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </a>
+                    <div class="opciones">
+                        <p>
+                            <input type="checkbox" id="p4_1">
+                            <label for="p4_1">MUY BIEN</label>
+                            <input type="checkbox" id="p4_2">
+                            <label for="p4_2">BIEN</label>
+                            <input type="checkbox" id="p4_3">
+                            <label for="p4_3">REGULAR</label>
+                            <input type="checkbox" id="p4_4">
+                            <label for="p4_4">MAL</label>
+                            <input type="checkbox" id="p4_5">
+                            <label for="p4_5">MUY MAL</label>
+                            <input type="checkbox" id="p4_6">
+                            <label for="p4_6">NS / NC</label>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="acordeon-item" id="Pregunta5">
+                    <a class="acordeon-link active" href="#Pregunta5">
+                        P5- ¿POR QUE NO SE COMUNICO CON EL MUNICIPIO?
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </a>
+                    <div class="opciones">
+                        <div class="form-group" id="P5">
+                            <input type="text" class="form-control" placeholder=" Pregunta abierta">
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="acordeon-item" id="Pregunta6">
+                    <a class="acordeon-link" href="#Pregunta6">
+                        P6- ¿CUAN INFORMADO SE ENCUENTRA SOBRE LAS ACCIONES QUE LLEVA ADELANTE 
+                        EL MUNICIPIO?
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </a>
+                    <div class="opciones">
+                        <p>
+                            <input type="checkbox" id="p6_1">
+                            <label for="p6_1">MUY INFORMADO</label>
+                            <input type="checkbox" id="p6_2">
+                            <label for="p6_2">INFORMADO</label>
+                            <input type="checkbox" id="p6_3">
+                            <label for="p6_3">POCO INFORMADO</label>
+                            <input type="checkbox" id="p6_4">
+                            <label for="p6_4">NADA INFORMADO</label>                            
+                            <input type="checkbox" id="p6_5">
+                            <label for="p6_5">NS / NC</label>
+                        </p>                    
+                    </div>
+                </div>
+
+                <div class="acordeon-item" id="Pregunta7">
+                    <a class="acordeon-link" href="#Pregunta7">
+                        P7- ¿POR QUE MEDIO SE INFORMAN SOBRE LAS ACCIONES DEL MUNICIPIO?
+                        (respuesta simple)
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </a>
+                    <div class="opciones">
+                        <p>
+                            <input type="checkbox" id="p7_1">
+                            <label for="p7_1">BOCA A BOCA</label>
+                            <input type="checkbox" id="p7_2">
+                            <label for="p7_2">POR LO QUE VE</label>
+                            <input type="checkbox" id="p7_3">
+                            <label for="p7_3">CARTELES EN LA CALLE</label>
+                            <input type="checkbox" id="p7_4">
+                            <label for="p7_4">TELEVISION</label><BR><br>
+                            <input type="checkbox" id="p7_5">
+                            <label for="p7_5">DIARIOS</label>
+                            <input type="checkbox" id="p7_6">
+                            <label for="p7_6">RADIOS</label>
+                            <input type="checkbox" id="p7_7">
+                            <label for="p7_7">INTERNET</label>                            
+                            <input type="checkbox" id="p7_9">
+                            <label for="p7_9">NS / NC</label>
+                        </p>
+                        <div class="form-otros" id="P7">                                
+                            <input type="text" class="form-control" placeholder=" Otros medios">
+                        </div>                     
+                    </div>
+                </div>
+
+                <div class="acordeon-item" id="Pregunta8">
+                    <a class="acordeon-link" href="#Pregunta8">
+                        P8- Esta es la pregunta N 8?
                         <i class="fas fa-plus"></i>
                         <i class="fas fa-minus"></i>
                     </a>
@@ -80,6 +227,46 @@
                             provident amet magnam saepe.
                         </p>                        
                     </div>
+                </div>
+
+                <div class="acordeon-item" id="Pregunta9">
+                    <a class="acordeon-link" href="#Pregunta9">
+                        P9- ¿con cual de las siguientes palabras asocia ud. al intendente de su municipio?
+                        (respuesta multiple)
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </a>
+                    <div class="opciones">
+                        <p>
+                            <input type="checkbox" id="p9_1">
+                            <label for="p9_1">EXPERIENCIA</label>
+                            <input type="checkbox" id="p9_2">
+                            <label for="p9_2">CORRUPCION</label>
+                            <input type="checkbox" id="p9_3">
+                            <label for="p9_3">CAPACIDAD</label>
+                            <input type="checkbox" id="p9_4">
+                            <label for="p9_4">INEXPERIENCIA</label><BR><br>
+                            <input type="checkbox" id="p9_5">
+                            <label for="p9_5">HONESTIDAD</label>
+                            <input type="checkbox" id="p9_6">
+                            <label for="p9_6">INCAPACIDAD</label>
+                            <input type="checkbox" id="p9_7">
+                            <label for="p9_7">COMPROMISO</label>                            
+                            <input type="checkbox" id="p9_9">
+                            <label for="p9_9">NS / NC</label>
+                        </p>
+                        <div class="form-otros" id="P7">                                
+                            <input type="text" class="form-control" placeholder=" Otra palabra">
+                        </div>                        
+                    </div>
+                </div>
+
+                <!--  DATOS DE CLASIFICACION  -->
+
+                <div class="acordeon-item" id="Pregunta9">
+                    <a class="acordeon-link" href="#Pregunta9">
+                        DATOS DE CLASIFICACION                        
+                    </a>                    
                 </div>
 
             </div>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+body{
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    background: #3cf006;    
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    text-align: center;
+}
+
+.izquierda{
+    background: #e60404;
+    /*margin: 10px;*/
+    padding: 10px 0 0;
+
+}
+
+.centro{
+    background: #2805ee;
+    padding: 10px;
+}
+
+.derecha{
+    background: #f36f02;
+    margin: 10px;        
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
