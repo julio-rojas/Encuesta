@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" maximum-scale=1.0, minimum-scale=1.0>    
-    <title>Encuesta</title>
-
-    <!-- link para los iconos
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">-->
+    <title>Encuesta</title>    
 
     <link rel="stylesheet" href="css/estilos.css">    
 </head>
@@ -21,14 +18,10 @@
 
                 <div class="pag">
                     <i class="fas fa-angle-double-left"></i>
-                    <i class="fas fa-angle-double-right"></i>
-
-                    <i class="fad fa-angle-double-left"></i>
-                    <i class="fad fa-angle-double-right"></i>
-                </div>
-                
-                
+                    <i class="fas fa-angle-double-right"></i>                    
+                </div>                
             </div>
+
             <div class="acordeon">
                 <div class="acordeon-item" id="Pregunta1">
                     <a class="acordeon-link active" href="#Pregunta1">
@@ -37,51 +30,31 @@
                         <i class="fas fa-plus"></i>
                         <i class="fas fa-minus"></i>
                     </a>
-
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p1_1">
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_1">
                             <label for="p1_1">MUY BIEN</label>
-                            <input type="checkbox" id="p1_2">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_2">
                             <label for="p1_2">BIEN</label>
-                            <input type="checkbox" id="p1_3">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_3">
                             <label for="p1_3">REGULAR</label>
-                            <input type="checkbox" id="p1_4">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_4">
                             <label for="p1_4">MAL</label>
-                            <input type="checkbox" id="p1_5">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_5">
                             <label for="p1_5">MUY MAL</label>
-                            <input type="checkbox" id="p1_6">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg1" id="p1_6">
                             <label for="p1_6">NS / NC</label>
-                        </p>
-
-                        <!--
-                            <p>
-                            <input type="checkbox" id="p1_1">
-                            <label for="p1_1">MUY BIEN</label>
-                        </p>
-                        <p>
-                            <input type="checkbox" id="p1_2">
-                            <label for="p1_2">BIEN</label>
-                        </p>
-                        <p>
-                            <input type="checkbox" id="p1_3">
-                            <label for="p1_3">REGULAR</label>
-                        </p>
-                        <p>
-                            <input type="checkbox" id="p1_4">
-                            <label for="p1_4">MAL</label>
-                        </p>
-                        <p>
-                            <input type="checkbox" id="p1_5">
-                            <label for="p1_5">MUY MAL</label>
-                        </p>
-                        <p>
-                            <input type="checkbox" id="p1_6">
-                            <label for="p1_6">NS / NC</label>
-                        </p>
-
-                        -->
-                        
+                        </div>
                     </div>                        
                 </div>
 
@@ -93,14 +66,19 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p2_1">
+                        
+                        <div class="op">
+                            <input type="radio" name="preg2" id="p2_1">                            
                             <label for="p2_1">LA APRUEBA</label>
-                            <input type="checkbox" id="p2_2">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg2" id="p2_2">
                             <label for="p2_2">LA DESAPRUEBA</label>
-                            <input type="checkbox" id="p2_3">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg2" id="p2_3">
                             <label for="p2_3">NS / NC</label>
-                        </p>                   
+                        </div>
                     </div>
                 </div>
 
@@ -111,12 +89,14 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p3_1">
+                        <div class="op">
+                            <input type="radio" name="preg3" id="p3_1">
                             <label for="p3_1">SI</label>
-                            <input type="checkbox" id="p3_2">
-                            <label for="p3_2">NO</label>                            
-                        </p>                        
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg3" id="p3_2">
+                            <label for="p3_2">NO</label>
+                        </div>                                             
                     </div>
                 </div>
 
@@ -127,20 +107,30 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p4_1">
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_1">
                             <label for="p4_1">MUY BIEN</label>
-                            <input type="checkbox" id="p4_2">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_2">
                             <label for="p4_2">BIEN</label>
-                            <input type="checkbox" id="p4_3">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_3">
                             <label for="p4_3">REGULAR</label>
-                            <input type="checkbox" id="p4_4">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_4">
                             <label for="p4_4">MAL</label>
-                            <input type="checkbox" id="p4_5">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_5">
                             <label for="p4_5">MUY MAL</label>
-                            <input type="checkbox" id="p4_6">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg4" id="p4_6">
                             <label for="p4_6">NS / NC</label>
-                        </p>
+                        </div>                        
                     </div>
                 </div>
 
@@ -165,18 +155,26 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p6_1">
+                        <div class="op">
+                            <input type="radio" name="preg6" id="p6_1">
                             <label for="p6_1">MUY INFORMADO</label>
-                            <input type="checkbox" id="p6_2">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg6" id="p6_2">
                             <label for="p6_2">INFORMADO</label>
-                            <input type="checkbox" id="p6_3">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg6" id="p6_3">
                             <label for="p6_3">POCO INFORMADO</label>
-                            <input type="checkbox" id="p6_4">
-                            <label for="p6_4">NADA INFORMADO</label>                            
-                            <input type="checkbox" id="p6_5">
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg6" id="p6_4">
+                            <label for="p6_4">NADA INFORMADO</label>
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="preg6" id="p6_5">
                             <label for="p6_5">NS / NC</label>
-                        </p>                    
+                        </div>                                           
                     </div>
                 </div>
 
@@ -188,27 +186,41 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p7_1">
-                            <label for="p7_1">BOCA A BOCA</label>
+                        <div class="op">                            
+                                <input type="checkbox" id="p7_1">
+                                <label for="p7_1">BOCA A BOCA</label>                            
+                        </div>
+                        <div class="op">                            
                             <input type="checkbox" id="p7_2">
                             <label for="p7_2">POR LO QUE VE</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_3">
                             <label for="p7_3">CARTELES EN LA CALLE</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_4">
-                            <label for="p7_4">TELEVISION</label><BR><br>
+                            <label for="p7_4">TELEVISION</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_5">
                             <label for="p7_5">DIARIOS</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_6">
                             <label for="p7_6">RADIOS</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_7">
-                            <label for="p7_7">INTERNET</label>                            
+                            <label for="p7_7">INTERNET</label>
+                        </div>
+                        <div class="op">
                             <input type="checkbox" id="p7_9">
                             <label for="p7_9">NS / NC</label>
-                        </p>
+                        </div>
                         <div class="form-otros" id="P7">                                
                             <input type="text" class="form-control" placeholder=" Otros medios">
-                        </div>                     
+                        </div>                        
                     </div>
                 </div>
 
@@ -237,25 +249,39 @@
                         <i class="fas fa-minus"></i>
                     </a>
                     <div class="opciones">
-                        <p>
-                            <input type="checkbox" id="p9_1">
+                        <div class="op">
+                            <input type="checkbox" name="p9_1" id="p9_1">
                             <label for="p9_1">EXPERIENCIA</label>
-                            <input type="checkbox" id="p9_2">
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_2" id="p9_2">
                             <label for="p9_2">CORRUPCION</label>
-                            <input type="checkbox" id="p9_3">
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_3" id="p9_3">
                             <label for="p9_3">CAPACIDAD</label>
-                            <input type="checkbox" id="p9_4">
-                            <label for="p9_4">INEXPERIENCIA</label><BR><br>
-                            <input type="checkbox" id="p9_5">
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_4" id="p9_4">
+                            <label for="p9_4">INEXPERIENCIA</label>
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_5" id="p9_5">
                             <label for="p9_5">HONESTIDAD</label>
-                            <input type="checkbox" id="p9_6">
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_6" id="p9_6">
                             <label for="p9_6">INCAPACIDAD</label>
-                            <input type="checkbox" id="p9_7">
-                            <label for="p9_7">COMPROMISO</label>                            
-                            <input type="checkbox" id="p9_9">
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_7" id="p9_7">
+                            <label for="p9_7">COMPROMISO</label>
+                        </div>
+                        <div class="op">
+                            <input type="checkbox" name="p9_9" id="p9_9">
                             <label for="p9_9">NS / NC</label>
-                        </p>
-                        <div class="form-otros" id="P7">                                
+                        </div>                        
+                        <div class="form-otros" name="" id="P7_8">                                
                             <input type="text" class="form-control" placeholder=" Otra palabra">
                         </div>                        
                     </div>
@@ -263,16 +289,14 @@
 
                 <!--  DATOS DE CLASIFICACION  -->
 
-                <div class="acordeon-item" id="Pregunta9">
-                    <a class="acordeon-link" href="#Pregunta9">
+                <div class="acordeon-item">
+                    <a class="acordeon-link" href="#">
                         DATOS DE CLASIFICACION                        
                     </a>                    
                 </div>
-
             </div>
         </div>
     </section>
-
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </body>
 </html>
